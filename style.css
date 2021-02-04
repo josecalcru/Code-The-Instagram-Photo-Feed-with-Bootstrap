@@ -2,6 +2,11 @@
     font-family: "Oleo Script";
 }
 
+/* Small devices (landscape phones, 544px and up) */
+  @media (min-width: 319px) {  
+    * {font-size: 13px;}
+  }
+
   /* Small devices (landscape phones, 544px and up) */
   @media (min-width: 544px) {  
     * {font-size: 15px;}
@@ -9,7 +14,7 @@
 
   /* Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) {  
-    * {font-size: 20pxx;}
+    * {font-size: 15px;}
   }
 
   /* Large devices (desktops, 992px and up) */
