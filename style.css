@@ -4,7 +4,7 @@
 
 /* Small devices (landscape phones, 544px and up) */
   @media (min-width: 319px) {  
-    * {font-size: 13px;}
+    * {font-size: 11px;}
   }
 
   /* Small devices (landscape phones, 544px and up) */
@@ -26,3 +26,44 @@
   @media (min-width: 1200px) {  
     * {font-size: 25px;}
   }
+
+
+
+
+ul.nav li.active a {
+    color:red;
+}
+
+.btn-sample:active {
+  box-shadow: none;
+}
+
+.btn{
+    background-color: darkslategray;
+    color: white;
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    color: #fff;
+    border-color: black;
+}
+
+
+.nav-pills > li > a {
+  color: #575757;
+}
+
+
+.nav-pills .nav-link.active {
+  background-color:darkslategray;
+}
+
+.dropdown-item:active{
+    background-color:darkslategray;
+}
+
+.embed-responsive {
+    max-width: 100%;
+    margin: 0 auto;
+    border: none;
+}
