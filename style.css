@@ -1,42 +1,51 @@
 *{
     font-family: "Oleo Script";
 }
-
+/* The following code changes the font size based on screen size*/
 /* Small devices (landscape phones, 544px and up) */
   @media (min-width: 319px) {  
     * {font-size: 11px;}
+        .row .ml-auto{
+    font-size: 10px
+    }
   }
 
   /* Small devices (landscape phones, 544px and up) */
   @media (min-width: 544px) {  
     * {font-size: 15px;}
+        .row .ml-auto{
+    font-size: 11px
+    }
   }
 
   /* Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) {  
     * {font-size: 15px;}
+        .row .ml-auto{
+    font-size: 12px
+    }
   }
 
   /* Large devices (desktops, 992px and up) */
   @media (min-width: 992px) { 
     * {font-size: 20px;}
+    .row .ml-auto{
+    font-size: 16px
+    }
   }
 
   /* Extra large devices (large desktops, 1200px and up) */
   @media (min-width: 1200px) {  
     * {font-size: 25px;}
+    .row .ml-auto{
+    font-size: 20px
+    }
   }
 
 
 
 
-ul.nav li.active a {
-    color:red;
-}
 
-.btn-sample:active {
-  box-shadow: none;
-}
 
 .btn{
     background-color: darkslategray;
@@ -62,8 +71,3 @@ ul.nav li.active a {
     background-color:darkslategray;
 }
 
-.embed-responsive {
-    max-width: 100%;
-    margin: 0 auto;
-    border: none;
-}
