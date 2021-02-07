@@ -1,4 +1,8 @@
 *{
+    font-family: "lato";
+}
+
+.navbar-brand{
     font-family: "Oleo Script";
 }
 /* The following code changes the font size based on screen size*/

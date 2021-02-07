@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Oleo Script' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/23d1f061ad.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
     <title>Instagram</title>
@@ -15,10 +18,10 @@
             <a class="navbar-brand" href="#"> <i class="fab fa-instagram"></i> Instagram</a>
            
             <div class="dropdown ml-auto">
-                 <button type="button" class="btn ml-auto" data-toggle="modal" data-target="#Modal">
+                 <button type="button" class="btn btn-secondary ml-auto" data-toggle="modal" data-target="#Modal">
             Create a new post
             </button>
-                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
                 <i class="fas fa-cog" ></i>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -42,79 +45,79 @@
                 <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-square"></i></a>
             </li>
         </ul>
-        <div class="tab-content" id="pills-tabContent">
+         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-            <div class="row p-0.5">
-                <div class="col-4 p-2">
-                <img src="https://picsum.photos/id/355/600/600?grayscale" class="img-fluid" alt="Responsive image">
-                </div>
-                <div class="col-4 p-2">
-                <img src="https://picsum.photos/id/354/600/600?grayscale" class="img-fluid" alt="Responsive image">
-                </div>
-                <div class="col-4 p-2">
-                <img src="https://picsum.photos/id/356/600/600?grayscale" class="img-fluid" alt="Responsive image">
-                </div>
-            </div>    
-            <div class="row p-0.5 d-flex flex-wrap align-items-center">
-              <div class="col-4 p-2">
-            <img src="https://picsum.photos/id/317/600/600?grayscale" class="img-fluid" alt="Responsive image">
-            </div>
-            <div class="col-4 p-2">
-            <img src="https://picsum.photos/id/334/600/600?grayscale" class="img-fluid" alt="Responsive image">
-            </div>
-            <div class="col-4 p-2">
-                <div class="embed-responsive embed-responsive-4by3">
-                    <iframe src="https://player.vimeo.com/video/8384324?autoplay=1" class="embed-responsive frameborder="0" allow="autoplay; picture-in-picture"></iframe>
-                </div>
-            </div>
-        </div>
-            <div class="row p-0.5">
-              <div class="col-4 p-2">
-            <img src="https://picsum.photos/id/351/600/600?grayscale" class="img-fluid" alt="Responsive image">
-            </div>
-            <div class="col-4 p-2">
-            <img src="https://picsum.photos/id/352/600/600?grayscale" class="img-fluid" alt="Responsive image">
-            </div>
-            <div class="col-4 p-2">
-            <img src="https://picsum.photos/id/353/600/600?grayscale" class="img-fluid" alt="Responsive image">
-            </div>
-        </div>
-            </div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                <div class="card mx-auto border-0" style="max-width:400px;">
-                    <div class="row px-3"><p>My first photo</p> <p class="ml-auto">12/14</p></div>
+                <div class="row p-0.5">
+                    <div class="col-4 p-2">
                     <img src="https://picsum.photos/id/355/600/600?grayscale" class="img-fluid" alt="Responsive image">
-                    <div class="card-body p-0">
-                        <h5 class="card-title m-0 ">2 likes</h5>
-                        <p class="card-text m-0">This is my first photo of my feed. This is a multiline comment for testing purposes bla bla bla</p>
-                        <div class="row mb-4"><i class="far fa-heart col-1 py-2"></i><input class="form-control ml-auto col-10 border-0" type="text" placeholder="Comment..."></div>
                     </div>
-                </div>
-                <div class="card mx-auto border-0" style="max-width:400px;">
-                    <div class="row px-3"><p>Just text</p> <p class="ml-auto">17/14</p></div>
-                    <img src="https://picsum.photos/id/354/600/600?grayscale" class="img-fluid" alt="Responsive image">
-                    <div class="card-body p-0">
-                        <h5 class="card-title m-0 ">14 likes</h5>
-                        <p class="card-text m-0">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos.</p>
-                        <div class="row mb-4"><i class="far fa-heart col-1 py-2"></i><input class="form-control ml-auto col-10 border-0" type="text" placeholder="Comment..."></div>
+                    <div class="col-4 p-2">
+                        <img src="https://picsum.photos/id/354/600/600?grayscale" class="img-fluid" alt="Responsive image">
                     </div>
-                </div>
-                <div class="card mx-auto border-0" style="max-width:400px;">
-                    <div class="row px-3"><p>My last photo</p> <p class="ml-auto">12/14</p></div>
+                    <div class="col-4 p-2">
                     <img src="https://picsum.photos/id/356/600/600?grayscale" class="img-fluid" alt="Responsive image">
-                    <div class="card-body p-0">
+                    </div>
+                </div>    
+            <div class="row p-0.5 d-flex flex-wrap align-items-center">
+                <div class="col-4 p-2">
+                <img src="https://picsum.photos/id/317/600/600?grayscale" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-4 p-2">
+                <img src="https://picsum.photos/id/334/600/600?grayscale" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-4 p-2">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe src="https://player.vimeo.com/video/8384324?autoplay=1" class="embed-responsive frameborder="0" allow="autoplay; picture-in-picture"></iframe>
+                    </div>
+                </div>
+            </div>
+                <div class="row p-0.5">
+                    <div class="col-4 p-2">
+                        <img src="https://picsum.photos/id/351/600/600?grayscale" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-4 p-2">
+                        <img src="https://picsum.photos/id/352/600/600?grayscale" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-4 p-2">
+                        <img src="https://picsum.photos/id/353/600/600?grayscale" class="img-fluid" alt="Responsive image">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade bg-light" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="card mx-auto border-0 my-4" style="max-width:400px;">
+                    <div class="row mx-0 p-1"><p><strong>My first photo</strong></p> <p class="ml-auto"><strong>14/12</strong></p></div>
+                    <img src="https://picsum.photos/id/355/600/600?grayscale" class="img-fluid" alt="Responsive image">
+                    <div class="card-body p-1">
+                        <h5 class="card-title m-0 pb-2"><strong>2 likes</strong></h5>
+                        <h6 class="card-text m-0 pb-2">This is my first photo of my feed. This is a multiline comment for testing purposes bla bla bla</h6>
+                        <div class="row pr-3 mb-2"><i class="far fa-heart col-1 py-2"></i><input class="form-control ml-auto col-10 border-0" type="text" placeholder="Comment..."></div>
+                    </div>
+                </div>
+                <div class="card mx-auto border-0 my-4" style="max-width:400px;">
+                    <div class="row mx-0 p-1"><p><strong>Another one</strong></p> <p class="ml-auto"><strong>13/12</strong></p></div>
+                    <img src="https://picsum.photos/id/354/600/600?grayscale" class="img-fluid" alt="Responsive image">
+                    <div class="card-body p-1">
+                        <h5 class="card-title m-0 pb-2 "><strong>14 likes</strong></h5>
+                        <p class="card-text m-0 pb-2">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos.</p>
+                        <div class="row pr-3 mb-2"><i class="far fa-heart col-1 py-2"></i><input class="form-control ml-auto col-10 border-0" type="text" placeholder="Comment..."></div>
+                    </div>
+                </div>
+                <div class="card mx-auto border-0 my-4" style="max-width:400px;">
+                    <div class="row mx-0 p-1"><p><strong>My last photo</strong></p> <p class="ml-auto"><strong>13/12</strong></p></div>
+                    <img src="https://picsum.photos/id/356/600/600?grayscale" class="img-fluid" alt="Responsive image">
+                    <div class="card-body p-1">
                         <h5 class="card-title m-0 ">-1 likes</h5>
                         <p class="card-text m-0">This is my first photo of my feed. This is a multiline comment for testing purposes bla bla bla</p>
-                        <div class="row mb-4"><i class="far fa-heart col-1 py-2"></i><input class="form-control ml-auto col-10 border-0" type="text" placeholder="Comment..."></div>
+                        <div class="row px-3"><i class="far fa-heart col-1 py-2"></i><input class="form-control ml-auto col-10 border-0" type="text" placeholder="Comment..."></div>
                     </div>
                 </div>
-                <div class="card mx-auto border-0" style="max-width:400px;">
-                    <div class="row px-3"><p>Another one</p> <p class="ml-auto">12/14</p></div>
+                <div class="card mx-auto border-0 my-4" style="max-width:400px;">
+                    <div class="row mx-0 p-1"><p><strong>Another one</strong></p> <p class="ml-auto"><strong>12/12</strong></p></div>
                     <img src="https://picsum.photos/id/334/600/600?grayscale" class="img-fluid" alt="Responsive image">
-                    <div class="card-body p-0">
+                    <div class="card-body p-1">
                         <h5 class="card-title m-0 ">590 likes</h5>
                         <p class="card-text m-0">What is love?Oh baby, don't hurt meDon't hurt meNo moreOh baby, don't hurt me, don't hurt me No more</p>
-                        <div class="row mb-4"><i class="far fa-heart col-1 py-2"></i><input class="form-control ml-auto col-10 border-0" type="text" placeholder="Comment..."></div>
+                        <div class="row px-3"><i class="far fa-heart col-1 py-2"></i><input class="form-control ml-auto col-10 border-0" type="text" placeholder="Comment..."></div>
                     </div>
                 </div>
             </div>
@@ -123,28 +126,28 @@
 
 
     </div>
-<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="ModalLabel">Create a new post</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="form-group">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="ModalLabel">Create a new post</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
         </div>
-        <i class="fas fa-camera">   </i>     <i class="fas fa-map-marker-alt"></i>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn " data-dismiss="modal">Close</button>
-        <button type="button" class="btn ">Publish</button>
-      </div>
+        <div class="modal-body">
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <i class="fas fa-camera">   </i>     <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary">Publish</button>
+        </div>
+        </div>
     </div>
-  </div>
-</div>
+    </div>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
